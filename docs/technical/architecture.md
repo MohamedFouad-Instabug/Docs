@@ -1,16 +1,15 @@
 # Architecture
 
-The **test-docs-workflow** project is designed with modularity and scalability in mind. Its architecture consists of the following main components:
+**test-docs-workflow** is a simple React website for browsing and viewing recipes.
 
-- **Frontend**: User interface built with modern web technologies, providing an intuitive experience.
-- **Backend API**: Handles business logic, authentication, and data processing.
-- **Database**: Stores persistent data securely and efficiently.
-- **CI/CD Pipeline**: Automates testing, building, and deployment.
+## Main Components
 
-## Component Relationships
+- **React Frontend**: The entire application is built using React. All recipe data is stored locally (e.g., in JSON files or as static content).
+- **Static Hosting**: The site can be deployed to GitHub Pages or any static site host. There is no backend server or database.
 
-- The frontend communicates with the backend API via REST endpoints.
-- The backend interacts with the database for data storage and retrieval.
-- CI/CD ensures code quality and automates deployments to production environments.
+## How It Works
 
-![Architecture Diagram](../assets/architecture-diagram.png) 
+- Users can browse a list of recipes, view details, and search/filter recipes.
+- All data and logic are handled client-side in the browser.
+
+_No backend, API, or database is required for this project._ 

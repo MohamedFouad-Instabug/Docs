@@ -1,26 +1,29 @@
 # API Reference
 
-Below are the main API endpoints for **test-docs-workflow**.
+**test-docs-workflow** is a static React website and does not provide any backend API.
 
-## Endpoints
+All recipe data is stored locally within the project, typically as JSON files or static JavaScript objects.
 
-### `GET /api/items`
-- **Description:** Retrieve a list of items.
-- **Response Example:**
-  ```json
-  [
-    { "id": 1, "name": "Item 1" },
-    { "id": 2, "name": "Item 2" }
+## Example Recipe Data Structure
+
+```json
+{
+  "id": 1,
+  "title": "Classic Pancakes",
+  "ingredients": [
+    "2 cups flour",
+    "2 eggs",
+    "1.5 cups milk",
+    "1 tbsp sugar",
+    "1 tsp salt"
+  ],
+  "instructions": [
+    "Mix dry ingredients.",
+    "Add eggs and milk.",
+    "Whisk until smooth.",
+    "Cook on a hot griddle."
   ]
-  ```
+}
+```
 
-### `POST /api/items`
-- **Description:** Create a new item.
-- **Request Example:**
-  ```json
-  { "name": "New Item" }
-  ```
-- **Response Example:**
-  ```json
-  { "id": 3, "name": "New Item" }
-  ``` 
+_No API endpoints are available or required for this project._ 

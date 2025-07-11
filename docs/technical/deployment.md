@@ -1,20 +1,19 @@
 # Deployment
 
-This page describes the CI/CD process, environment variables, and deployment steps for **test-docs-workflow**.
+This page describes how to deploy **test-docs-workflow**, a simple React recipes website, as a static site.
 
-## CI/CD Pipeline
+## Build for Production
 
-- Automated tests run on every pull request.
-- Builds are created and deployed to staging/production environments.
-- Common tools: GitHub Actions, Jenkins, or CircleCI.
+- Run the following command to create a production build:
+  ```bash
+  npm run build
+  ```
+- The static files will be generated in the `build/` directory.
 
-## Environment Variables
+## Deploy to GitHub Pages
 
-- Store sensitive data (API keys, DB credentials) in environment variables.
-- Use `.env` files for local development and secret managers for production.
+1. Push your code to GitHub.
+2. Use the `gh-pages` branch or GitHub Actions to deploy the `build/` folder.
+3. In your repository settings, set GitHub Pages to serve from the `/build` or `/docs` folder as appropriate.
 
-## Deployment Steps
-
-1. Merge changes to the `main` branch.
-2. CI/CD pipeline runs tests and builds the project.
-3. On success, the build is deployed to the target environment. 
+_There is no backend, database, or environment variable configuration required._ 

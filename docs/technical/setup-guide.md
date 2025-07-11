@@ -1,6 +1,6 @@
 # Setup Guide
 
-Follow these steps to run and configure **test-docs-workflow** locally and in production.
+Follow these steps to run **test-docs-workflow** (a simple React recipes website) locally or deploy it as a static site.
 
 ## Local Setup
 
@@ -13,15 +13,18 @@ Follow these steps to run and configure **test-docs-workflow** locally and in pr
    cd test-docs-workflow
    npm install
    ```
-3. **Configure environment variables:**
-   - Copy `.env.example` to `.env` and update values as needed.
-4. **Run the application:**
+3. **Start the development server:**
    ```bash
    npm start
    ```
+   The app will be available at `http://localhost:3000`.
 
-## Production Setup
+## Production/Static Deployment
 
-- Ensure all environment variables are set for production.
-- Use a process manager (e.g., PM2) or container orchestration (e.g., Docker, Kubernetes).
-- Set up monitoring and logging for reliability. 
+- Build the static site:
+  ```bash
+  npm run build
+  ```
+- Deploy the contents of the `build/` folder to GitHub Pages or any static hosting provider.
+
+_No backend or environment variables are required._ 
