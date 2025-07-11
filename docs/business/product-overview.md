@@ -1,9 +1,9 @@
 # Product Overview
 
-**test-docs-workflow** is a comprehensive solution designed to streamline documentation workflows for technical and business teams. It centralizes project knowledge, improves collaboration, and ensures up-to-date information for all stakeholders.
+**test-docs-workflow** is a simple, user-friendly React website for browsing and viewing recipes. It provides a collection of delicious recipes, each with ingredients and step-by-step instructions, making it easy for anyone to discover and prepare new dishes at home.
 
 ## Why It Exists
 
-- Reduces documentation silos
-- Accelerates onboarding
-- Enhances transparency and communication 
+- To make it easy for users to find and try new recipes
+- To provide a clean, accessible, and enjoyable cooking resource
+- To demonstrate a simple React project for learning or portfolio purposes 

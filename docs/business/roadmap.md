@@ -1,12 +1,13 @@
 # Roadmap
 
 ## Short-Term Goals
-- Launch MVP with core documentation features
-- Gather user feedback
-- Improve navigation and search
+- Add more recipes and categories
+- Improve recipe search and filtering
+- Enhance mobile responsiveness
+- Collect user feedback for improvements
 
 ## Long-Term Vision
-- Integrate with third-party tools (e.g., Slack, Jira)
-- Advanced analytics and reporting
-- AI-powered documentation suggestions
-- Continuous improvement based on user needs 
+- Allow users to submit their own recipes
+- Add features like favorites or shopping lists
+- Support for multiple languages
+- Integrate with social sharing platforms 
