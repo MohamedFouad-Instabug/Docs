@@ -1,8 +1,2 @@
-# Use Cases
-
-**test-docs-workflow** is useful in the following scenarios:
-
-- **Home Cooks:** Quickly find and follow recipes for everyday meals or special occasions.
-- **Beginner Chefs:** Learn to cook with easy-to-follow instructions and ingredient lists.
-- **Recipe Sharing:** Share the site with friends or family looking for cooking inspiration.
-- **Learning React:** Use as a reference or starting point for those learning React development. 
+- **Recipe Management Platform:** The application has evolved into a comprehensive platform for managing recipes, user accounts, ratings, and social interactions, making it suitable for users looking for a feature-rich cooking experience.
+- **Automated Documentation:** The included n8n workflow design allows for automatic generation of documentation based on PR changes, thus making it useable by organizations wanting a tool for auto documentation.
