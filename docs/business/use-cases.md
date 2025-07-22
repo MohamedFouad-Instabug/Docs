@@ -1,8 +1,2 @@
-# Use Cases
-
-**test-docs-workflow** is useful in the following scenarios:
-
-- **Home Cooks:** Quickly find and follow recipes for everyday meals or special occasions.
-- **Beginner Chefs:** Learn to cook with easy-to-follow instructions and ingredient lists.
-- **Recipe Sharing:** Share the site with friends or family looking for cooking inspiration.
-- **Learning React:** Use as a reference or starting point for those learning React development. 
+- **RecipeHub**: The application has evolved from a simple recipe viewer into RecipeHub 2.0, a full-featured recipe management platform. It includes features like user authentication, recipe ratings, social features, and dietary preferences. It's useful for users looking for a comprehensive platform to manage and share recipes.
+- **Users with Dietary Restrictions**: Find recipes tailored to specific needs with comprehensive filter and tagging functionalities. App now supports comprehensive dietary restrictions and preferences with user-specific customizations.
