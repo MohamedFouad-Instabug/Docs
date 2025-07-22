@@ -1,8 +1,1 @@
-# Use Cases
-
-**test-docs-workflow** is useful in the following scenarios:
-
-- **Home Cooks:** Quickly find and follow recipes for everyday meals or special occasions.
-- **Beginner Chefs:** Learn to cook with easy-to-follow instructions and ingredient lists.
-- **Recipe Sharing:** Share the site with friends or family looking for cooking inspiration.
-- **Learning React:** Use as a reference or starting point for those learning React development. 
+The application has undergone a major transformation from a simple recipe viewer to a comprehensive recipe management platform called RecipeHub 2.0. Key features include user authentication (via `AuthContext` and `api.js`), enhanced data structure (see `CHANGES_SUMMARY.md`), user management, a rating and review system, advanced search and filtering, a UI/UX overhaul, and a new n8n workflow for automated documentation (`n8n-workflow-design.md`).  The documentation should be updated to reflect these significant architectural and feature changes. Specifically, update the architecture overview to describe service layer, state management, and UI/UX enhancements. Add sections detailing business features like user management, rating, search, and social features.
